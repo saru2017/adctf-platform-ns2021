@@ -60,7 +60,7 @@ def memo_page(memo_id):
         )
         if len(memo) == 0:
             # 該当するメモが存在しなかったのでエラーページを返す
-            message = "Error! There are no memos that you can see."
+            message = "Error! Permission denied to see this memo."
             return render_template("memo.tmpl", username=username, message=message)
         else:
             return render_template("memo.tmpl", username=username, memo=memo)
