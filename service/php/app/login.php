@@ -14,7 +14,7 @@ if(isset($_COOKIE["user"])){
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Flask</title>
+  <title>PHP Memo Service</title>
   <link rel="stylesheet" href="/static/styles/bulma.min.css">
   <link rel="stylesheet" href="/static/styles/space.css">
   <link rel="stylesheet" href="/static/styles/main.css">
@@ -26,7 +26,7 @@ if(isset($_COOKIE["user"])){
 
 <nav class="navbar is-info" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <h1 class="navbar-item is-size-5-touch is-size-4-desktop has-text-weight-semibold">Flask Memo</h1>
+    <h1 class="navbar-item is-size-5-touch is-size-4-desktop has-text-weight-semibold">PHP Memo Service</h1>
     <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
       data-target="navbarBasicExample">
       <span aria-hidden="true"></span>
