@@ -1,3 +1,12 @@
+<?php
+if(isset($_COOKIE["user"])){
+    http_response_code(301);
+    header("Location: /index.php");
+    echo("oi");
+    print_r($_COOKIE);
+    return;
+}
+?>
 <!DOCTYPE html>
 <html lang="ja">
 
