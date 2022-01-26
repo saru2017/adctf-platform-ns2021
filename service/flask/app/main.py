@@ -11,7 +11,7 @@ app.secret_key = "sugoi_himitu"
 # SQLを実行する関数
 def ExecuteQuery(sql):
     conn = pymysql.connect(
-        host="172.29.149.60",
+        host="db",
         user="root",
         password="root",
         db="flask_db",
